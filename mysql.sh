@@ -30,7 +30,7 @@ if [ $1 -ne 0 ]
     then
         echo -e "$2 is $R not successful $N" | tee -a $LOG_FILE
         exit 1
-    else g
+    else 
         echo -e "$2  is $G success $N" | tee -a $LOG_FILE 
     fi
 }
